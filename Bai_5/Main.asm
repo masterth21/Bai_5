@@ -57,7 +57,7 @@ main proc
 
 	;IN TONG CAC PHAN TU CHIA HET CHO 7
 	mov ax, Sum
-	call WriteDec
+	call WriteDec;tùnnofisoofof
 	call Crlf
 
 	Invoke ExitProcess,0
