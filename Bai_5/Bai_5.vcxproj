@@ -149,6 +149,9 @@
       <IncludePaths Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Irvine</IncludePaths>
     </MASM>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pp.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
